@@ -1,0 +1,54 @@
+Requirements
+Create high level Test Plan for "Rent a car" functionality of https://www.lyft.com/rider/rentals.
+Describe in details at least 2 the most critical scenarios (1 positive and 1 negative) to test “Rent a car” form functionality of https://www.lyft.com/rider/rentals.
+
+Introduction:
+This Test Plan serves as a guide to assess the "Rent a Car" feature on Lyft's website (https://www.lyft.com/rider/rentals). This feature enables users to rent cars using the Lyft platform.
+
+Scope:
+Our testing efforts will concentrate on verifying the functionality, user-friendliness, and security of the "Rent a Car" form on the Lyft website. The testing process will involve a blend of manual and exploratory techniques.
+
+Test Scenarios:
+
+Positive Scenario: Successful Car Rental
+
+Description: Verify that a user can successfully rent a car by providing valid details in the form.
+Steps:
+Navigate to the Lyft website and access the "Rent a Car" section.
+Enter valid pickup and drop-off locations, date, time, and other required details.
+Submit the form and verify that the user receives a confirmation message.
+Check the backend to confirm the reservation details are correctly stored.
+
+Negative Scenario: Invalid Inputs Handling
+
+Description: Verify that the system handles invalid inputs appropriately and provides meaningful error messages to the user.
+Steps:
+Navigate to the Lyft website and access the "Rent a Car" section.
+Enter invalid or incomplete details in the form (e.g., past date, incorrect location, empty fields).
+Submit the form and verify that appropriate error messages are displayed for each invalid input.
+Check the backend to confirm no reservation is created for invalid inputs.
+
+Test Environment:
+
+Operating System: Windows 10, macOS
+Browsers: Chrome, Firefox, Safari
+Devices: Desktop, Laptop
+
+Test Data:
+
+Valid and invalid pickup/drop-off locations
+Valid and invalid dates and times
+
+Test Deliverables:
+
+Test scenarios document
+Test execution report detailing pass/fail status and issues found
+Screenshots of critical issues encountered during testing
+
+Risks and Assumptions:
+
+Risks: Possibility of server downtime, network issues affecting form submission.
+Assumptions: The website will be accessible during the testing period, and the test environment mirrors the production environment closely.
+
+Conclusion:
+This Test Plan aims to ensure that the "Rent a Car" functionality on Lyft's website works seamlessly and provides users with a positive experience. Through rigorous testing, we aim to identify and rectify any issues, ensuring the functionality is reliable and user-friendly.
